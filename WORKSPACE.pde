@@ -1,4 +1,4 @@
-//Punts base
+//Punts base70998070
 Punt ph1, ph2, ph3, ph4, pv1, pv2, pv3, pv4, pp1, pp2, pp3, pp4, plt1, plt2, plt3;
 
 //Punts creats
