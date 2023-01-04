@@ -1,7 +1,7 @@
-//Punts base70998070
+//Punts plans
 Punt ph1, ph2, ph3, ph4, pv1, pv2, pv3, pv4, pp1, pp2, pp3, pp4, plt1, plt2, plt3;
 
-//Punts creats
+//Punts creats per s'usuari
 Punt A, B, C, D;
 
 //Plans base
