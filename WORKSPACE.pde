@@ -77,4 +77,17 @@ void draw() {
   PV.display();
   PP.display();
   LT.display();
+  
+/*  //Display plans i punts base
+  pushMatrix();
+  scale((float)jcam.getDistance()/2000);
+  ph1.display();
+  pv1.display();
+  pp1.display();
+  PH.display();
+  PV.display();
+  PP.display();
+  LT.display();
+  popMatrix();
+  */
 }
