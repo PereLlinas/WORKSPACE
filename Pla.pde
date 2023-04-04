@@ -23,12 +23,13 @@ class Pla {
       } else if (i==1) {
         this.b=new Punt("", this.punts[i].getX()*5, this.punts[i].getY()*5, this.punts[i].getZ()*5, 1);
         puntsExtra[i]=this.b;
-      } else{
+      } else {
         this.c=new Punt("", this.punts[i].getX()*5, this.punts[i].getY()*5, this.punts[i].getZ()*5, 1);
         puntsExtra[i]=this.c;
       }
     }
   }
+
 
 
 
@@ -56,14 +57,15 @@ class Pla {
     strokeWeight(3);
     fill(255, 0, 0, 50);
     beginShape();
-    for (int i=0; i<this.puntsExtra.length-1; i++) {
-      vertex(this.puntsExtra[i].getX(), this.puntsExtra[i].getY(), this.puntsExtra[i].getZ());
+    for (int i=0; i<numPunts; i++) {
+      //vertex(this.puntsExtra[i].x, this.puntsExtra[i].y, this.puntsExtra[i].z);
+      vertex(this.punts[i].getX(), this.punts[i].getY(), this.punts[i].getZ());
     }
     endShape(CLOSE);
     //text(Nom, x+r+10, y+r+10, z);
 
     // Dibuixa els punts del poligon
-    for (int i=0; i<this.puntsExtra.length-1; i++) {
+    for (int i=0; i<numPunts; i++) {
       this.punts[i].display();
       this.puntsExtra[i].display();
     }

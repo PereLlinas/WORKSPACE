@@ -16,7 +16,7 @@ Recta r;
 //càmera (origen de coordenades se posa al centre)
 import peasy.*;
 PeasyCam jcam;
-float zoomValue=1000.0;
+float zoomValue=2000.0;
 
 void setup() {
   size(1000, 1000, P3D);
@@ -78,10 +78,10 @@ void draw() {
   PV.display();
   PP.display();
   LT.display();
-  
-/*  //Display plans i punts base
+
+  //Display plans i punts base
   pushMatrix();
-  scale((float)jcam.getDistance()/2000);
+  // scale((float)jcam.getDistance()/2000);
   ph1.display();
   pv1.display();
   pp1.display();
@@ -90,5 +90,4 @@ void draw() {
   PP.display();
   LT.display();
   popMatrix();
-  */
 }
