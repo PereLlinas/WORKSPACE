@@ -3,13 +3,12 @@ class Punt {
   String Nom;
   color c;
 
-  Punt(String n, float x, float y, float z, float r, color c) {
+  Punt(String n, float x, float y, float z, float r) {
     this.Nom=n;
     this.x=-x;
     this.y=-y;
     this.z=z;
     this.r=r;
-    this.c=c;
   } 
   String getNom(){
     return this.Nom;
